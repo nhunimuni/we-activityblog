@@ -2,10 +2,10 @@
 
 Planen Sie das HTML-Gerüst für diese Aufgabe dann wie folgt:
 
-- mindestens drei HTML-Dokumente (3 Punkte)
+mindestens drei HTML-Dokumente (3 Punkte)
 1. regelmäßigen Beiträge, 
-2. eines über die Personen, die den blog betreiben
-3. ein weiteres Ihrer Wahl, z.B. Empfehlungen oder Blogroll, Termine, o.ä.
+2. über die Personen, die den blog betreiben
+3. Termine
 
 - verwenden Sie Grafiken und Texte, verwenden Sie keine Blindtexte, verwenden Sie Quellenangaben, wenn nötig (3 Punkte)
  
