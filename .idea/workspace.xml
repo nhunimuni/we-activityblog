@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8268591-f964-46aa-add8-a16c9642ff9d" name="Default" comment="">
+    <list default="true" id="f8268591-f964-46aa-add8-a16c9642ff9d" name="Default" comment="Personen file hinzugefügt">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/we-activityblog.iml" afterPath="$PROJECT_DIR$/we-foodblog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Personen.html" afterPath="$PROJECT_DIR$/src/Personen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Umfrage.html" afterPath="$PROJECT_DIR$/src/Umfrage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/Umfrage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -469,7 +467,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508322658547</updated>
-      <workItem from="1508322661724" duration="1915000" />
+      <workItem from="1508322661724" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1508323052404</created>
@@ -485,15 +483,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508323834040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Personen file hinzugefügt">
+      <created>1508325129386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508325129386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1915000" />
+    <option name="totallyTimeSpent" value="1952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1279" height="729" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -504,7 +508,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -535,7 +539,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/we-activityblog.iml">
+    <entry file="file://$PROJECT_DIR$/we-foodblog.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -565,7 +569,7 @@
     <entry file="file://$PROJECT_DIR$/src/Umfrage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
