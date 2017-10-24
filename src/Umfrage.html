@@ -19,6 +19,15 @@ Gewinnspiel: Subscription, Coupons
 <body>
 <div>
     <h1>Umfrage</h1>
+
+    <nav>Navigation
+        <ul>
+            <li><a href="Umfrage.html">refresh</a></li>
+            <li><a href="Main.html">home</a></li>
+            <li><a href="Personen.html">about</a></li>
+        </ul>
+    </nav>
+
     <form>
 
         <!-- Allgemeine Angaben -->
@@ -112,10 +121,10 @@ Gewinnspiel: Subscription, Coupons
 
             <br> <!---nächste Frage aber immer noch gleiches Thema-->
 
-            <label>2. Wie oft kochst du zu Hause?</label>
-            <label>täglich</label>
+            <label for="cooking">2. Wie oft kochst du zu Hause?</label>
+            <label for="cooking">täglich</label>
             <input type="range" id="cooking">
-            <label>nie</label>
+            <label for="cooking">nie</label>
 
             <br>
 
@@ -124,7 +133,7 @@ Gewinnspiel: Subscription, Coupons
             <input type="checkbox" id="book" value="b">
             <label for="book">Kochbücher</label>
 
-            <input type="checkbox" id="thun" value="i">
+            <input type="checkbox" id="internet" value="i">
             <label for="internet">Internet</label>
 
             <input type="checkbox" id="acquaintances" value="a">
@@ -186,9 +195,9 @@ Gewinnspiel: Subscription, Coupons
             <br>
 
             <label for="expenses">4. Wie viel Geld gibst du im Monat für Essen aus?</label>
-            <label>100€</label>
+            <label for="expenses">100€</label>
             <input type="range" id="expenses">
-            <label>500€+</label>
+            <label for="expenses">500€+</label>
 
         </fieldset>
 
@@ -205,16 +214,6 @@ Gewinnspiel: Subscription, Coupons
 
         </fieldset>
 
-        <fieldset>
-            <legend>Navigation</legend>
-            <nav>Links</nav>
-            <ul>
-                <li><a href="Umfrage.html">refresh</a></li>
-                <li><a href="Main.html">home</a></li>
-                <li><a href="Personen.html">about</a></li>
-
-            </ul>
-        </fieldset>
     </form>
 </div>
 
