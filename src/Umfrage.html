@@ -23,7 +23,7 @@ Gewinnspiel: Subscription, Coupons
 
         <!-- Allgemeine Angaben -->
         <fieldset>
-            <legend>Allgemein</legend>
+            <legend>Persönliche Angaben</legend>
 
             <label for="nachname">Nachname</label>
             <input type="text" id="nachname">
@@ -93,53 +93,110 @@ Gewinnspiel: Subscription, Coupons
             <legend> Essverhalten </legend>
             <label> 1. Was isst du am liebsten?</label>
 
-            <input type="radio" name="cuisine" id="asian">
+            <input type="checkbox" name="cuisine" id="asian">
             <label for="asian">asiatisch</label>
 
-            <input type="radio"	name="cuisine" id="italian">
+            <input type="checkbox"	name="cuisine" id="italian">
             <label for="italian">italienisch</label>
 
 
-            <input type="radio" name="cuisine" id="mexican">
+            <input type="checkbox" name="cuisine" id="mexican">
             <label for="mexican">mexikanisch</label>
 
-            <input type="radio" name="cuisine" id="spanish">
+            <input type="checkbox" name="cuisine" id="spanish">
             <label for="spanish">spanisch</label>
 
-            <input type="radio" name="cuisine" id="other">
+            <input type="checkbox" name="cuisine" id="other">
             <label for="other">sonstiges: </label>
             <input type="text" id="other">
 
             <br> <!---nächste Frage aber immer noch gleiches Thema-->
 
-            <label>2. Wie oft isst du außerhalb?</label>
+            <label>2. Wie oft kochst du zu Hause?</label>
+            <label>täglich</label>
+            <input type="range" id="cooking">
+            <label>nie</label>
 
             <br>
 
-            <label>3. Nutzt du den Lieferservice regelmäßig?</label>
+            <label>3. Deine Quelle für Rezepte?</label>
 
-            <br>
+            <input type="checkbox" id="book" value="b">
+            <label for="book">Kochbücher</label>
 
-            <label>4. Wenn ja, welchen benutzt du bevorzugt?</label>
+            <input type="checkbox" id="thun" value="i">
+            <label for="internet">Internet</label>
 
-            <br>
+            <input type="checkbox" id="acquaintances" value="a">
+            <label for="acquaintances">Bekannte</label>
 
-            <label>5. Wie oft kochst du zu Hause?</label>
+            <input type="checkbox" id="other" value="o">
+            <label for="other">sonstiges:</label>
+            <input type="text" id="other">
+
 
         </fieldset>
 
-        <!-- Sonstiges -->
+
+
         <fieldset>
-            <legend>kein plan</legend>
-            <label for="expenses">1. Wie viel Geld gibst du im Monat für Essen aus?</label>
+            <legend> Kaufverhalten </legend>
+
+            <label>1. Wie oft isst du außerhalb?</label>
+            <input type="radio" name="frequency" id="often">
+            <label for="often">oft</label>
+
+            <input type="radio" name="frequency" id="seldom">
+            <label for="seldom">selten</label>
+
+            <input type="radio" name="frequency" id="never">
+            <label for="never">nie</label>
+
+            <br>
+
+            <label>2. Nutzt du den Lieferservice regelmäßig?</label>
+            <input type="radio" name="delivery" id="often">
+            <label for="often">oft</label>
+
+            <input type="radio" name="delivery" id="seldom">
+            <label for="seldom">selten</label>
+
+            <input type="radio" name="delivery" id="never">
+            <label for="never">nie</label>
+
+            <br>
+
+            <label>3. Wenn ja, welchen benutzt du bevorzugt?</label>
+            <input type="radio" name="service" id="deliveroo">
+            <label for="deliveroo">deliveroo</label>
+
+            <input type="radio" name="service" id="lieferando">
+            <label for="lieferando">lieferando</label>
+
+            <input type="radio" name="service" id="lieferheld">
+            <label for="lieferheld">lieferheld</label>
+
+            <input type="radio" name="service" id="self">
+            <label for="self">selbst Abholen</label>
+
+            <input type="radio" name="service" id="other">
+            <label for="other">sonstiges: </label>
+            <input type="text" id="other">
+
+            <br>
+
+            <label for="expenses">4. Wie viel Geld gibst du im Monat für Essen aus?</label>
             <label>100€</label>
             <input type="range" id="expenses">
-            <label>1000€</label>
+            <label>500€+</label>
 
         </fieldset>
+
+
 
         <!--Freiwillge Angaben-->
         <fieldset>
+            <legend>Freiwillige Angaben</legend>
             <label for="recs">Empfehlungen</label>
             <input type="text" id="recs">
 
@@ -148,8 +205,16 @@ Gewinnspiel: Subscription, Coupons
 
         </fieldset>
 
+        <fieldset>
+            <legend>Navigation</legend>
+            <nav>Links</nav>
+            <ul>
+                <li><a href="Umfrage.html">refresh</a></li>
+                <li><a href="Main.html">home</a></li>
+                <li><a href="Personen.html">about</a></li>
 
-
+            </ul>
+        </fieldset>
     </form>
 </div>
 
