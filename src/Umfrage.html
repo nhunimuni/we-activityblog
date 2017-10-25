@@ -37,13 +37,13 @@ Gewinnspiel: Subscription, Coupons
             <legend>Persönliche Angaben</legend>
 
             <label for="nachname">Nachname</label>
-            <input type="text" id="nachname">
+            <input type="text" id="nachname" required>
 
             <label for="vorname">Vorname</label>
-            <input type="text" id="vorname">
+            <input type="text" id="vorname" required>
 
             <label for="alter">Alter</label>
-            <select id="alter">
+            <select id="alter" required>
                 <option>18</option>
                 <option>19</option>
                 <option>19</option>
@@ -92,10 +92,10 @@ Gewinnspiel: Subscription, Coupons
             </select>
 
             <label for="email">E-Mail</label>
-            <input type="text" id="email">
+            <input type="email" id="email" required>
 
             <label for="land">Land</label>
-            <input type="text" id="land">
+            <input type="text" id="land" required>
 
         </fieldset>
 
@@ -202,9 +202,7 @@ Gewinnspiel: Subscription, Coupons
             <label for="expenses">500€+</label>
 
         </fieldset>
-
-
-
+        
         <!--Freiwillge Angaben-->
         <fieldset>
             <legend>Freiwillige Angaben</legend>
@@ -214,6 +212,12 @@ Gewinnspiel: Subscription, Coupons
             <label for="fb">Feedback</label>
             <input type="text" id="fb">
 
+        </fieldset>
+
+        <fieldset>
+            <legend>Einsenden</legend>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </fieldset>
 
     </form>
