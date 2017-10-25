@@ -19,8 +19,8 @@
       <file leaf-file-name="Umfrage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Umfrage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+            <state relative-caret-position="504">
+              <caret line="212" column="76" lean-forward="false" selection-start-line="212" selection-start-column="76" selection-end-line="212" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -608,7 +608,7 @@
       <workItem from="1508864100118" duration="878000" />
       <workItem from="1508878234943" duration="676000" />
       <workItem from="1508913866564" duration="68000" />
-      <workItem from="1508924309811" duration="260000" />
+      <workItem from="1508924309811" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1508323052404</created>
@@ -694,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508878997367</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Umfrage überarbeitet">
+      <created>1508924588596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1508924588596</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17869000" />
+    <option name="totallyTimeSpent" value="18201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -777,7 +784,8 @@
     <MESSAGE value="Personen überarbeitet" />
     <MESSAGE value="fertig" />
     <MESSAGE value="Fehler behoben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fehler behoben" />
+    <MESSAGE value="Umfrage überarbeitet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Umfrage überarbeitet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1275,8 +1283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Umfrage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="504">
+          <caret line="212" column="76" lean-forward="false" selection-start-line="212" selection-start-column="76" selection-end-line="212" selection-end-column="76" />
           <folding />
         </state>
       </provider>
