@@ -2,38 +2,32 @@
 
 CSS3 AUFGABE
 
-Verwenden Sie Ihre Dateien aus der HTML-Übungsaufgabe und erweitern Sie diese um Gestaltung mit CSS3. 
 
-Bevor Sie mit der Gestaltung beginnen lesen Sie folgenden Artikel http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation. Machen Sie sich Gedanken zu den Themen reset und normalize. Bilden Sie sich eine eigene Meinung und integrieren Sie diese dann in Ihr Projekt. Schreiben Sie Ihre Erkenntnisse als Kommentar in die CSS-Datei.  (3 Punkte)
+Vorgaben:
 
-Für die Gestaltung haben Sie folgende Vorgaben:
+- für Desktop und für Mobilgeräte ()media-querie(s)) (3 Punkte)
+- keine feste Auflösung oder Orientierung
 
-Sie gestalten für den Desktop und für Mobilgeräte, verwenden Sie media-querie(s). (3 Punkte)
-Beide Ausgabegeräte wiederum haben keine feste Auflösung oder Orientierung. 
+- CSS-Datei(en) sollten grundsätzlich ausgelagert sein (auch wenn es für die mobilen Geräte da einen entgegengesetzten Trend auf Grund der Performance gibt). (1 Punkte)
 
-Die CSS-Datei(en) sollten grundsätzlich ausgelagert sein (auch wenn es für die mobilen Geräte da einen entgegengesetzten Trend auf Grund der Performance gibt). (1 Punkte)
+- Inline-styles verwenden Sie nur in schriftlich begründeten Ausnahmefällen
 
-Inline-styles verwenden Sie nur in schriftlich begründeten Ausnahmefällen.
-
-Sie entscheiden bitte und begründen in Form eines Kommentars: (2 Punkte)
+- Sie entscheiden bitte und begründen in Form eines Kommentars: (2 Punkte)
 
 Desktop-first oder mobile-first oder Auslieferung vollkommen getrennter Dateien
 Befolgen Sie u.a. diese Vorgehensweisen:
 
-viele verschiedenartige Selektoren verwenden (2 Punkte)
-Spezifität ausprobieren und beachten
-Sparsam die HTML-Dateien verändern
-box-sizing explizit verwenden (1 Punkt)
-Media-Queries einsetzen
-möglichst relative Einheiten verwenden (2 Punkte)
-Basisgröße für Schrift angeben, weitere Schriften relativ zur Basisgröße ausrichten (1 Punkt)
-Verwenden Sie mindestens einmal transition, transform oder animation (2 Punkte)
-Bedenken Sie auch Accessibility und Usability. (2 Punkte)
-Testen Sie Ihre Dateien.
-Alle Dateien, auch die vorher erstellen HTML-Dokumente, müssen valide sein. (2 Punkte)
-Warnungen sind erlaubt, wenn es sich um neue HTML5 und CSS3-Eigenschaften handelt.
-
-Sie können Fragen beantworten (4 Punkte)
+- viele verschiedenartige Selektoren verwenden (2 Punkte)
+- Spezifität ausprobieren und beachten
+- Sparsam die HTML-Dateien verändern
+- box-sizing explizit verwenden (1 Punkt)
+- Media-Queries einsetzen
+- möglichst relative Einheiten verwenden (2 Punkte)
+- Basisgröße für Schrift angeben, weitere Schriften relativ zur Basisgröße ausrichten (1 Punkt)
+- Verwenden Sie mindestens einmal transition, transform oder animation (2 Punkte)
+- Bedenken Sie auch Accessibility und Usability. (2 Punkte)
+- Alle Dateien (auch HTML-Dokumente), müssen valide sein. (2 Punkte)
+- Sie können Fragen beantworten (4 Punkte)
 
 Verzichten Sie auf Frameworks.
 
