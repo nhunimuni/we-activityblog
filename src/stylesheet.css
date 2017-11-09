@@ -1,0 +1,199 @@
+/*
+Damit die Webseite sowohl in einem schmalen Browserfenster des Desktop-PCs als
+auch auf dem Smartphone oder Laptop wunschgemäß dargestellt wird
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+- To allow users to resize the text (in the browser menu),
+many developers use em instead of pixels
+font-size: 2.5em; -> 40px/16=2.5em
+- vw (Viewport)
+
+
+Dinge die ich noch ausprobieren wollte:
+
+Erstmal nur den Header:
+- Transition (Slideshow) als Background des Header (aber dunnoo??? in der Aufg steht: Transition, Transform oder Animation)
+- Wenn man Runter scrollt, dass man die Leiste ganz oben noch sehen kann und die Nav auch oben steht
+- sowas wie n Facebook Icon oder Suchfeld mit in die Leiste einbauen
+*/
+
+
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1200px;
+    background: #FFFFFF;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/**
+ * ein Image als Background für den Header
+ * webkit dingens damit das Bild transparenter wirkt, später lieber mit Photoshop :-)
+ */
+#header
+{
+    position: relative;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url(we-foodblog/Header_Food_Global_1280x480.jpg) no-repeat ;
+    background-size: 100vw;
+}
+
+#nav
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    vertical-align:baseline;
+    display:block
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/**
+ * li-Elemente
+ * width hier ist die Breite des Backgrounds der "nav Blöcke" haha
+ *
+ * > hier ist wie eine Bedingung, die Regel gilt nur wenn es eine
+ * Navigation ist, die ein ul-Element und li-Element hat
+ */
+#nav > ul > li
+{
+    display: inline-block;
+    width: 150px;
+
+}
+
+#nav > ul > li:last-child
+{
+    padding-right: 0;
+}
+
+/**
+ * a und span Element
+ */
+#nav > ul > li > a,
+#nav > ul > li > span
+{
+    display: block;
+    padding: 14px 10px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    outline: 0;
+    background-color: rgba(255,255,255,.7);
+    color: rgb(52, 101, 53);
+}
+
+
+#nav > ul > li > a:hover
+{
+    color: #FFF;
+}
+
+/**
+ * Farbe des Links
+ */
+#nav li.active a
+{
+    background: none;
+    border-radius: 40px;
+    border: 2px solid;
+    border-color: rgba(255,255,255,.8);
+    color: #FFF;
+}
+
+#nav > ul > li > ul
+{
+    display: none;
+}
+
+#logo
+{
+    margin-bottom: 3em;
+}
+
+#logo h1
+{
+    padding-left: 2em;
+    font-weight: 300;
+    font-size: 1.5em;
+    outline: 0;
+    color: rgba(255,255,255,.7);
+    background-color: rgba(52, 101, 53,.7);
+}
+
+#logo h1 a
+{
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 900;
+    color: #FFF;
+}
+
+
+/**
+ * "Logo" in der Mitte des Image
+ */
+#logo span
+{
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    padding-top: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 7em;
+    color: rgb(255,255,255);
+}
+
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+h1
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    vertical-align:baseline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
