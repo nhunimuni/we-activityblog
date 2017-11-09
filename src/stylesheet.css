@@ -39,7 +39,32 @@ body{
     margin-right: auto;
 }
 
+a
+{
+    text-decoration: none;
+}
 
+h1
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    vertical-align:baseline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
 
 /**
  * ein Image als Background für den Header
@@ -174,26 +199,78 @@ body{
     color: rgb(255,255,255);
 }
 
-.image
+
+article
 {
     display: inline-block;
 }
 
-.image img
+
+
+/**
+ * welp, eig will ich ja eher, dass das Bild links oder rechts neben der Beschreibung ist
+ * kb gerade zu ändern hahaha 22:40 lol
+ * und dann beide article in eine Box xddd
+ */
+#About
 {
-    display: block;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-h1
+#Thao
 {
-    margin:0;
-    padding:0;
-    border:0;
-    font:inherit;
-    vertical-align:baseline;
-    text-transform: uppercase;
-    font-weight: bold;
+    /*padding-left: 0;
+
+    background-color: cornflowerblue;
+    width: 40vw;*/
+
+    text-align: justify;
+    width: 450px;
+    height: 400px;
+    background: white;
+    float: left;
 }
+
+#Nhu
+{
+    /*text-align: justify;
+    background-color: cornflowerblue;
+    width: 40vw;*/
+
+    text-align: justify;
+    width: 450px;
+    background: white;
+    height: 400px;
+    margin-left: 100px;
+}
+
+
+/**
+ * Ja ka wie man den Footer bis gnaz nach unten verschiebt
+ */
+#footer-email
+{
+    padding-left: 2em;
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: rgba(255,255,255,.7);
+    background-color: rgba(52, 101, 53,.7);
+}
+
+#footer-email a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+}
+
+
+
+
+
 
 
