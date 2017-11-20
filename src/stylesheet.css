@@ -11,12 +11,14 @@ font-size: 2.5em; -> 40px/16=2.5em
 Dinge die ich noch ausprobieren wollte:
 
 Erstmal nur den Header:
-- Transition (Slideshow) als Background des Header (aber dunnoo??? in der Aufg steht: Transition, Transform oder Animation)
+- Transition (Slideshow) als Background des Header (aber dunnoo??? in der Aufg steht: Transition, Transform oder Animation) DONE
 - Wenn man Runter scrollt, dass man die Leiste ganz oben noch sehen kann und die Nav auch oben steht
 - sowas wie n Facebook Icon oder Suchfeld mit in die Leiste einbauen
 */
 
+@media  {
 
+}
 
 html{
     padding: 0;
@@ -33,11 +35,6 @@ body{
 
 }
 
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 a
 {
@@ -64,17 +61,171 @@ h1
 {
     display: block;
     width: 100%;
+    height: 100%;
+}
+
+article
+{
+    display: inline-block;
 }
 
 /**
- * ein Image als Background für den Header
- * webkit dingens damit das Bild transparenter wirkt, später lieber mit Photoshop :-)
+ * welp, eig will ich ja eher, dass das Bild links oder rechts neben der Beschreibung ist
+ * kb gerade zu ändern hahaha 22:40 lol
+ * und dann beide article in eine Box xddd
  */
+#About
+{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#Thao
+{
+    /*padding-left: 0;
+
+    background-color: cornflowerblue;
+    width: 40vw;*/
+
+    text-align: justify;
+    width: 450px;
+    height: 400px;
+    background: white;
+    float: left;
+}
+
+#Nhu
+{
+    /*text-align: justify;
+    background-color: cornflowerblue;
+    width: 40vw;*/
+
+    text-align: justify;
+    width: 450px;
+    background: white;
+    height: 400px;
+    margin-left: 100px;
+}
+
+/* ---------------------------- HEADER -----------------------------*/
 #header
 {
     position: relative;
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.1) 100%), url(we-foodblog/Header_Food_Global_1280x480.jpg) no-repeat ;
-    background-size: 100vw;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider {
+    background: #000;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    height: 480px;
+    width: 1280px;
+    margin: 0;
+    overflow: visible;
+    position: relative;
+}
+
+/* HIDE ALL OUTSIDE OF THE SLIDER */
+#mask {
+    overflow: hidden;
+    height: 480px;
+}
+
+/* IMAGE LIST */
+
+#slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#slider li {
+    width: 1280px;  /* Width Image */
+    height: 480px; /* Height Image */
+    position: absolute;
+    top: -325px; /* Original Position - Outside of the Slider */
+    list-style: none;
+}
+
+#slider li.firstanimation {
+    animation: cycle 50s linear infinite;
+}
+
+#slider li.secondanimation {
+    animation: cycletwo 50s linear infinite;
+}
+
+#slider li.thirdanimation {
+    animation: cyclethree 50s linear infinite;
+}
+
+#slider li.fourthanimation {
+    animation: cyclefour 50s linear infinite;
+}
+
+#slider li.fifthanimation {
+    animation: cyclefive 50s linear infinite;
+}
+
+
+/* ANIMATION */
+
+@keyframes cycle {
+    0%  { top: 0px; } /* When you start the slide, the first image is already visible */
+    4%  { top: 0px; } /* Original Position */
+    16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
+    20% { top: 0px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+    21% { top: 0px; opacity: 0; z-index: -1; } /* Return to Original Position */
+    92% { top: 0px; opacity: 0; z-index: 0; }
+    96% { top: 0px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+    100%{ top: 0px; opacity: 1; }
+}
+
+@keyframes cycletwo {
+    0%  { top: 0px; opacity: 0; } /* Original Position */
+    16% { top: 0px; opacity: 0; }/* Starts moving after 16% to this position */
+    20% { top: 0px; opacity: 1; }
+    24% { top: 0px; opacity: 1; }  /* From 20% to 24% = for 1 second enter image*/
+    36% { top: 0px; opacity: 1; z-index: 0; }   /* From 24% to 36 % = for 3 seconds the image is visible */
+    40% { top: 0px; opacity: 0; z-index: 0; } /* From 36% to 40% = for 1 second exit image */
+    41% { top: 0px; opacity: 0; z-index: -1; }   /* Return to Original Position */
+    100%{ top: 0px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclethree {
+    0%  { top: 0px; opacity: 0; }
+    36% { top: 0px; opacity: 0; }
+    40% { top: 0px; opacity: 1; }
+    44% { top: 0px; opacity: 1; }
+    56% { top: 0px; opacity: 1; }
+    60% { top: 0px; opacity: 0; z-index: 0; }
+    61% { top: 0px; opacity: 0; z-index: -1; }
+    100%{ top: 0px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefour {
+    0%  { top: 0px; opacity: 0; }
+    56% { top: 0px; opacity: 0; }
+    60% { top: 0px; opacity: 1; }
+    64% { top: 0px; opacity: 1; }
+    76% { top: 0px; opacity: 1; z-index: 0; }
+    80% { top: 0px; opacity: 0; z-index: 0; }
+    81% { top: 0px; opacity: 0; z-index: -1; }
+    100%{ top: 0px; opacity: 0; z-index: -1; }
+}
+@keyframes cyclefive {
+    0%  { top: 0px; opacity: 0; }
+    76% { top: 0px; opacity: 0; }
+    80% { top: 0px; opacity: 1; }
+    84% { top: 0px; opacity: 1; }
+    96% { top: 0px; opacity: 1; z-index: 0; }
+    100%{ top: 0px; opacity: 0; z-index: 0; }
 }
 
 #nav
@@ -84,7 +235,10 @@ h1
     border:0;
     font:inherit;
     vertical-align:baseline;
-    display:block
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: block;
 }
 
 #nav ul
@@ -159,22 +313,25 @@ h1
 
 #logo
 {
-    margin-bottom: 3em;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(52, 101, 53,.7);
 }
 
 #logo h1
 {
     padding-left: 2em;
+    padding-right: 75%;
     font-weight: 300;
     font-size: 1.5em;
+    display: inline-block;
+
     outline: 0;
-    color: rgba(255,255,255,.7);
-    background-color: rgba(52, 101, 53,.7);
+    color: rgb(255,255,255);
 }
 
 #logo h1 a
 {
-    display: block;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
@@ -183,76 +340,57 @@ h1
     color: #FFF;
 }
 
+input[type=text] 
+{
+
+    margin-bottom: 7px; /* ist voll dumm mit margin-button, ka wie man es mittig festlegen kann - "logo" ist auch nicht wkl mittig .-. */
+    position: relative;
+    text-transform: uppercase;
+    color: rgb(52, 101, 53);
+    display: inline-block;
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 150px;
+}
+
 
 /**
  * "Logo" in der Mitte des Image
- */
-#logo span
+*/
+#logo2 span
 {
     text-align: center;
     margin-bottom: 0;
+
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+
     display: block;
     padding-top: 1em;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 7em;
     color: rgb(255,255,255);
+
 }
+/* -------------------------- HEADER END -------------------------------*/
 
-
-article
+/* ------------------------------ FOOTER ------------------------------- */
+footer
 {
-    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-/**
- * welp, eig will ich ja eher, dass das Bild links oder rechts neben der Beschreibung ist
- * kb gerade zu ändern hahaha 22:40 lol
- * und dann beide article in eine Box xddd
- */
-#About
-{
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-#Thao
-{
-    /*padding-left: 0;
-
-    background-color: cornflowerblue;
-    width: 40vw;*/
-
-    text-align: justify;
-    width: 450px;
-    height: 400px;
-    background: white;
-    float: left;
-}
-
-#Nhu
-{
-    /*text-align: justify;
-    background-color: cornflowerblue;
-    width: 40vw;*/
-
-    text-align: justify;
-    width: 450px;
-    background: white;
-    height: 400px;
-    margin-left: 100px;
-}
-
-
-/**
- * Ja ka wie man den Footer bis gnaz nach unten verschiebt
- */
 #footer-email
 {
+    margin: 0;
     padding-left: 2em;
     font-weight: 300;
     font-size: 1em;
@@ -267,8 +405,7 @@ article
     text-decoration: none;
     color: rgba(255,255,255,.7);
 }
-
-
+/* ------------------------------ FOOTER END ------------------------------- */
 
 
 
