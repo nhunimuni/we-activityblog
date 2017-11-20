@@ -24,12 +24,12 @@ Befolgen Sie u.a. diese Vorgehensweisen:
 - Media-Queries einsetzen
 - möglichst relative Einheiten verwenden (2 Punkte)
 - Basisgröße für Schrift angeben, weitere Schriften relativ zur Basisgröße ausrichten (1 Punkt)
-- Verwenden Sie mindestens einmal transition, transform oder animation (2 Punkte)
+- Verwenden Sie mindestens einmal transition, transform oder animation (2 Punkte) //DONE
 - Bedenken Sie auch Accessibility und Usability. (2 Punkte)
 - Alle Dateien (auch HTML-Dokumente), müssen valide sein. (2 Punkte)
 - Sie können Fragen beantworten (4 Punkte)
 
-Verzichten Sie auf Frameworks.
+Verzichten Sie auf Frameworks. //ohno habe für die Transition Keyframes ??
 
 --------------------------------------------------------------------------------------------------------
 
