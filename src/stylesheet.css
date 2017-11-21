@@ -117,8 +117,8 @@ article
 
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 #slider {
@@ -316,15 +316,18 @@ article
     margin: 0;
     padding: 0;
     background-color: rgba(52, 101, 53,.7);
+    height: 35px;
 }
 
 #logo h1
 {
+    vertical-align: middle;
+    line-height: 35px;
+    float: left;
+
     padding-left: 2em;
-    padding-right: 75%;
     font-weight: 300;
     font-size: 1.5em;
-    display: inline-block;
 
     outline: 0;
     color: rgb(255,255,255);
@@ -332,22 +335,31 @@ article
 
 #logo h1 a
 {
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 5em;
     font-weight: 900;
-    color: #FFF;
+    color: #FFF;*/
 }
+
+
 
 input[type=text] 
 {
 
-    margin-bottom: 7px; /* ist voll dumm mit margin-button, ka wie man es mittig festlegen kann - "logo" ist auch nicht wkl mittig .-. */
+    margin-top: 7px; /* ist voll dumm mit margin-button, ka wie man es mittig festlegen kann - "logo" ist auch nicht wkl mittig .-. */
+    padding-right: 20px;
+
+    vertical-align: middle;
+    line-height: 15px;
+    float: right;
+
+
     position: relative;
     text-transform: uppercase;
     color: rgb(52, 101, 53);
-    display: inline-block;
+
     width: 100px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
