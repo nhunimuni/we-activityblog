@@ -27,9 +27,9 @@ html{
 
 
 body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    min-width: 1200px;
+    min-width: 100%;
     background: #FFFFFF;
     font-family: "Helvetica Neue", Arial, sans-serif;
 
@@ -146,8 +146,8 @@ article
 }
 
 #slider li {
-    width: 1280px;  /* Width Image */
-    height: 480px; /* Height Image */
+    width: 100%;/*1280px;*/  /* Width Image */
+    height: 100%;/*480px;*/ /* Height Image */
     position: absolute;
     top: -325px; /* Original Position - Outside of the Slider */
     list-style: none;
@@ -335,12 +335,12 @@ article
 
 #logo h1 a
 {
-    /*letter-spacing: 1px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 5em;
     font-weight: 900;
-    color: #FFF;*/
+    color: #FFF
 }
 
 
